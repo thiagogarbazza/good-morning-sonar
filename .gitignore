@@ -1,0 +1,11 @@
+target
+.vscode
+database.db
+
+.coverage
+.pytest_cache
+.ruff_cache
+htmlcov
+__pycache__
+.env
+.venv
