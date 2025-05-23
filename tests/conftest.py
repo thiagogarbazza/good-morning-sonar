@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from src.app import app
+from good_morning_sonar.app import app
 
 
 @pytest.fixture

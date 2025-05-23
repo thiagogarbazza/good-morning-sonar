@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi import FastAPI
 
-from src.schemas import Message
+from good_morning_sonar.schemas import Message
 
 app = FastAPI()
 
