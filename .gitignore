@@ -1,11 +1,25 @@
-target
-.vscode
-database.db
+# gitignore files
 
-.coverage
-.pytest_cache
-.ruff_cache
-htmlcov
+## Compiled output
+dist/
+target/
+tmp/
+.tmp/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
 __pycache__
+
+## Dependencies
+node_modules/
+.venv/
+venv/
+
+## Project generated files
+.coverage
 .env
-.venv
+*.log
+*.out
+*.lck
+*.db
+
